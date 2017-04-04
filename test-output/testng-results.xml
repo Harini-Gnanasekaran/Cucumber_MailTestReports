@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[<div "featureFile">Feature File: Login.feature</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "feature">Feature: OrangeHRM login</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "scenario">Scenario: login with valid credientials</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Given  visit OrangeHRM login page (passed : 28s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">When  enter the username &quot;linda.anderson&quot; and password &quot;linda.anderson&quot; (passed : 1s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">And  click on the Login button (passed : 4s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Then  user should able to see the orangeHRM homepage with welcome message &quot;Welcome Linda&quot; (passed : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "scenario">Scenario: login with Invalid credentials</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Given  visit OrangeHRM login page (passed : 15s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">When  enter the username &quot;user&quot; and password &quot;&quot; (passed : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">And  click on the Login button (passed : 0s)</div>]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="57867" started-at="2017-04-04T11:12:36Z" finished-at="2017-04-04T11:13:34Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.run_cukes()[pri:0, instance:com.cucumber.runner.Runner@23e028a9]" name="run_cukes" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="OrangeHRM TestCases" duration-ms="57867" started-at="2017-04-04T11:12:36Z" finished-at="2017-04-04T11:13:34Z">
+      <class name="com.cucumber.runner.Runner">
+        <test-method status="PASS" signature="run_cukes()[pri:0, instance:com.cucumber.runner.Runner@23e028a9]" name="run_cukes" duration-ms="57807" started-at="2017-04-04T16:42:36Z" description="Runs Cucumber Features" finished-at="2017-04-04T16:43:34Z">
+          <reporter-output>
+            <line>
+              <![CDATA[<div "featureFile">Feature File: Login.feature</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "feature">Feature: OrangeHRM login</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "scenario">Scenario: login with valid credientials</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Given  visit OrangeHRM login page (passed : 28s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">When  enter the username &quot;linda.anderson&quot; and password &quot;linda.anderson&quot; (passed : 1s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">And  click on the Login button (passed : 4s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Then  user should able to see the orangeHRM homepage with welcome message &quot;Welcome Linda&quot; (passed : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "scenario">Scenario: login with Invalid credentials</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Given  visit OrangeHRM login page (passed : 15s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">When  enter the username &quot;user&quot; and password &quot;&quot; (passed : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">And  click on the Login button (passed : 0s)</div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- run_cukes -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.cucumber.runner.Runner@23e028a9]" name="teardown" is-config="true" duration-ms="170" started-at="2017-04-04T16:43:34Z" finished-at="2017-04-04T16:43:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.cucumber.runner.Runner -->
+    </test> <!-- OrangeHRM TestCases -->
+  </suite> <!-- Suite -->
+</testng-results>

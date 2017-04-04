@@ -1,0 +1,164 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "login with valid credientials",
+        "description": "",
+        "id": "orangehrm-login;login-with-valid-credientials",
+        "after": [
+          {
+            "result": {
+              "duration": 1698699373,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginStepsDefenitions.closeDriver()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 28891018399,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "visit OrangeHRM login page",
+            "match": {
+              "location": "LoginStepsDefenitions.visit_OrangeHRM_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1229668261,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "enter the username \"linda.anderson\" and password \"linda.anderson\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "linda.anderson",
+                  "offset": 20
+                },
+                {
+                  "val": "linda.anderson",
+                  "offset": 50
+                }
+              ],
+              "location": "LoginStepsDefenitions.enter_valid_and(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4159603947,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "click on the Login button",
+            "match": {
+              "location": "LoginStepsDefenitions.click_on_the_Login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 346090971,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user should able to see the orangeHRM homepage with welcome message \"Welcome Linda\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Welcome Linda",
+                  "offset": 69
+                }
+              ],
+              "location": "LoginStepsDefenitions.user_should_able_to_see_the_orangeHRM_homepage(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 9,
+        "name": "login with Invalid credentials",
+        "description": "",
+        "id": "orangehrm-login;login-with-invalid-credentials",
+        "after": [
+          {
+            "result": {
+              "duration": 1690697458,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginStepsDefenitions.closeDriver()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 15726460677,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "visit OrangeHRM login page",
+            "match": {
+              "location": "LoginStepsDefenitions.visit_OrangeHRM_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 874442036,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "enter the username \"user\" and password \"\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "user",
+                  "offset": 20
+                },
+                {
+                  "val": "",
+                  "offset": 40
+                }
+              ],
+              "location": "LoginStepsDefenitions.enter_valid_and(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 480906246,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "click on the Login button",
+            "match": {
+              "location": "LoginStepsDefenitions.click_on_the_Login_button()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "OrangeHRM login",
+    "description": "",
+    "id": "orangehrm-login",
+    "keyword": "Feature",
+    "uri": "Login.feature"
+  }
+]
